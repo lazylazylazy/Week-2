@@ -1,0 +1,40 @@
+#Mortgage Calculator 
+#---------------------
+#input_values = [
+#	{salary: 0}, {deposit: 0}, {property_value: 0}
+#]
+
+
+def provide_mortgage?(salary, deposit, property_value)
+	#property_value = 0
+	# loan_amount = property_value - deposit
+	# min_deposit = 0.2 #minimum_deposit(0)
+	# max_multiplier = 5
+	# deposit >= property_value * min_deposit && 
+	# salary * max_multiplier >= loan_amount	
+	"hello"
+end		
+
+# def minimum_deposit(property_value)
+# 	p_value = property_value
+# 	min_deposit = 0
+# 	if p_value >= 650000 
+# 		min_deposit = p_value * 0.05
+# 	else
+# 		min_deposit = p_value * 0.2
+# 	end
+#   min_deposit
+# end
+
+
+#min deposit for property less than 650000 = 5%
+#min deposit of property more than 65000 = 20%
+#property_value()
+#minimum_deposit()
+
+provide_mortgage?(35000, 60000, 30000)
+#user input? turn into hash salay: deposit: property_value:
+
+#case statement 
+#yes you can buy a house
+#no you cannot buy a house
